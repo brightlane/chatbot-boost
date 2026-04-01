@@ -59,6 +59,7 @@ p { margin:10px 0; }
 .daily-tip { background:#fff8c4; padding:15px; border-radius:5px; margin:15px 0; font-weight:bold; }
 .language-section { display:none; }
 .language-section.active { display:block; }
+button { padding:8px 12px; margin:2px; cursor:pointer; border-radius:4px; border:1px solid #ccc; background:#fff; }
 </style>
 </head>
 
@@ -77,7 +78,7 @@ p { margin:10px 0; }
 <section id="en" class="language-section active">
 <h1>Grow Your Business with ManyChat</h1>
 <p>Automate messaging on Messenger, Instagram, and WhatsApp.</p>
-<a href="https://bit.ly/3PKFc23" class="btn-cta" rel="sponsored">Start with ManyChat →</a>
+<a href="https://tinyurl.com/ybbh7hdt" class="btn-cta" rel="sponsored">Start with ManyChat →</a>
 
 <div class="daily-tip">
 💡 Daily Tip: <span id="tip-en"></span>
@@ -96,7 +97,7 @@ p { margin:10px 0; }
 <section id="zh" class="language-section">
 <h1>使用 ManyChat 推动业务增长</h1>
 <p>在 Messenger、Instagram 和 WhatsApp 上自动化消息。</p>
-<a href="https://bit.ly/3PKFc23" class="btn-cta" rel="sponsored">开始使用 ManyChat →</a>
+<a href="https://tinyurl.com/ybbh7hdt" class="btn-cta" rel="sponsored">开始使用 ManyChat →</a>
 
 <div class="daily-tip">
 💡 每日提示: <span id="tip-zh"></span>
@@ -115,7 +116,7 @@ p { margin:10px 0; }
 <section id="ru" class="language-section">
 <h1>Развивайте свой бизнес с ManyChat</h1>
 <p>Автоматизируйте сообщения в Messenger, Instagram и WhatsApp.</p>
-<a href="https://bit.ly/3PKFc23" class="btn-cta" rel="sponsored">Начать с ManyChat →</a>
+<a href="https://tinyurl.com/ybbh7hdt" class="btn-cta" rel="sponsored">Начать с ManyChat →</a>
 
 <div class="daily-tip">
 💡 Ежедневный совет: <span id="tip-ru"></span>
@@ -134,7 +135,7 @@ p { margin:10px 0; }
 <section id="es" class="language-section">
 <h1>Crece tu negocio con ManyChat</h1>
 <p>Automatiza mensajes en Messenger, Instagram y WhatsApp.</p>
-<a href="https://bit.ly/3PKFc23" class="btn-cta" rel="sponsored">Comienza con ManyChat →</a>
+<a href="https://tinyurl.com/ybbh7hdt" class="btn-cta" rel="sponsored">Comienza con ManyChat →</a>
 
 <div class="daily-tip">
 💡 Consejo del día: <span id="tip-es"></span>
@@ -153,7 +154,7 @@ p { margin:10px 0; }
 <section id="fr" class="language-section">
 <h1>Développez votre entreprise avec ManyChat</h1>
 <p>Automatisez les messages sur Messenger, Instagram et WhatsApp.</p>
-<a href="https://bit.ly/3PKFc23" class="btn-cta" rel="sponsored">Commencer avec ManyChat →</a>
+<a href="https://tinyurl.com/ybbh7hdt" class="btn-cta" rel="sponsored">Commencer avec ManyChat →</a>
 
 <div class="daily-tip">
 💡 Astuce du jour: <span id="tip-fr"></span>
@@ -190,15 +191,13 @@ const tips = {
   fr: ["Engagez les utilisateurs dès le premier message automatique.","Utilisez les séquences Messenger pour nourrir les leads.","Connectez les DM Instagram à vos flux ManyChat.","Segmentez votre audience pour des messages personnalisés.","Testez les flux de chatbot avant un envoi global.","Proposez du contenu exclusif via l’automatisation WhatsApp."]
 };
 
-function setDailyTip(lang){
+// Set daily tips for all languages
+['en','zh','ru','es','fr'].forEach(lang => {
   const today = new Date();
   const index = today.getDate() % tips[lang].length;
   const el = document.getElementById('tip-'+lang);
   if(el) el.textContent = tips[lang][index];
-}
-
-// Initialize tips for all languages
-['en','zh','ru','es','fr'].forEach(setDailyTip);
+});
 </script>
 
 </body>
