@@ -1,0 +1,18 @@
+User-agent: *
+
+# Allow all important content pages
+Allow: /
+
+# Block admin/system files (important for SEO cleanliness)
+Disallow: /node_modules/
+Disallow: /social/
+Disallow: /scripts/
+Disallow: /private/
+Disallow: /tmp/
+
+# OPTIONAL: prevent indexing of raw generators (if you keep them online)
+Disallow: /*.js$
+Disallow: /*.json$
+
+# Sitemap (VERY IMPORTANT FOR GOOGLE INDEXING)
+Sitemap: https://yourdomain.com/sitemap.xml
