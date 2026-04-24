@@ -2,37 +2,79 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- 🏠 MAIN LANDING PAGE -->
+  <!-- 🏠 HOME -->
   <url>
     <loc>https://brightlane.github.io/chatbot-boost/</loc>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- 📄 OPTIONAL: BLOG / SUPPORT PAGES (ADD AS YOU EXPAND) -->
+  <!-- 📘 BLOG HUB -->
   <url>
     <loc>https://brightlane.github.io/chatbot-boost/blog.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- 🤖 CORE MONEY / CONVERSION PAGES -->
+  <url>
+    <loc>https://brightlane.github.io/chatbot-boost/manychat-guide.html</loc>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://brightlane.github.io/chatbot-boost/automation-guide.html</loc>
+    <loc>https://brightlane.github.io/chatbot-boost/ai-chat-automation.html</loc>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://brightlane.github.io/chatbot-boost/instagram-dm-funnels.html</loc>
+    <loc>https://brightlane.github.io/chatbot-boost/instagram-dm-bot.html</loc>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- 💰 MONEY PAGE (IMPORTANT FOR SEO PRIORITY) -->
   <url>
-    <loc>https://brightlane.github.io/chatbot-boost/get-started.html</loc>
+    <loc>https://brightlane.github.io/chatbot-boost/chatbot-marketing.html</loc>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://brightlane.github.io/chatbot-boost/lead-generation-ai.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 📄 SUPPORT PAGES -->
+  <url>
+    <loc>https://brightlane.github.io/chatbot-boost/about.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://brightlane.github.io/chatbot-boost/contact.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- ⚠️ ERROR PAGE -->
+  <url>
+    <loc>https://brightlane.github.io/chatbot-boost/404.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
   </url>
 
 </urlset>
